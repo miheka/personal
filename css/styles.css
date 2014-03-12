@@ -1,0 +1,178 @@
+body {
+	font-family: Arial, sans-serif, sans;
+	font-size: 0.8em;
+	font-weight: normal;
+	margin: 0px;
+}
+
+.clearfix {
+	clear: none;
+}
+
+#header {
+	height: 300px;
+}
+
+.line_light {
+	background: #666666;
+}
+
+.line_dark {
+	background: #444;
+}
+
+.top_line {
+	height: 10px;
+}
+
+.big_line {
+	height: 45px;
+}
+
+.second_line {
+	height: 5px;
+}
+
+.small_line {
+	height: 16px;
+}
+
+.main_line {
+	background: RGB(185, 17, 17);
+	height: 209px;
+}
+
+.links {
+	width: 960px;
+	line-height: 45px;
+	margin: 0 auto;
+	font-weight: bold;
+}
+
+.links a {
+	color: white;
+	text-decoration: none;
+}
+
+.link {
+	float:right;
+}
+
+.header_content {
+	width: 960px;
+	margin: 0 auto;
+	height: 209px;
+	padding-left: 117px;
+}
+
+.pers_img {
+	background: url("../images/main-collage.jpg");
+	width: 400px;
+	height: 209px;
+	display: inline-block;
+}
+
+.header_menu {
+	background: white;
+	width: 239px;
+	height: 209px;
+	display: inline-block;
+	margin-left: -4px;
+	vertical-align: top;
+}
+
+.header_menu ul {
+	padding: 0 15px;
+	margin-top: 0px;
+}
+
+.header_menu ul li{
+	list-style: none;
+	padding: 5px 5px 6px 15px;
+	border-bottom: #b82827 dotted 1px;
+	background: url('../images/menu-box.gif') left center no-repeat;
+	margin: 12px 0;
+	font-size: 0.95em;
+}
+
+.header_menu ul li a {
+	font-weight: bold;
+	color: #b82827;
+	text-decoration:none;
+	padding: 2px 5px;
+}
+
+.header_menu ul li a:hover {
+	color:white;
+	background: #444;
+}
+
+.pen {
+	background: url("../images/collage-0.jpg");
+	width: 263px;
+	height: 209px;
+	display: inline-block;
+	margin-left: -4px;
+}
+
+.nav {
+	width: 960px;
+	margin: 0 auto;
+	font-size: 0.85em;
+	color: #ccc;
+	line-height: 16px;
+}
+
+#main {
+	width: 960px;
+	margin: 0 auto;
+}
+
+#main_content {
+	width: 700px;
+	float: left;
+}
+
+.content {
+	width: 660px;
+}
+
+#sidebar {
+	margin-left: 700px;	
+}
+
+.menu_title {
+	background: RGB(185, 17,17) url("../images/box-name.jpg") top right no-repeat;
+	line-height: 25px;
+	text-align: center;
+	color: white;
+}
+
+.side_block ul{
+	padding: 3px 0 11px 17px;
+	margin: 0;
+}
+
+.side_block ul li{
+	list-style: none;
+	list-style-image: none;
+	display: block;
+	margin: 2px 0;
+	font-weight: bold;
+	font-size: 1em;
+	height: 19px;
+}
+
+.side_block ul li a{
+	display: block;
+	padding: 2px 4px;
+	line-height: 15px;
+	color: black;
+	text-decoration: none;
+	font-size: 0.95em;
+}
+
+.side_block ul li a:hover{
+	color:white;
+	background: #444;
+}
